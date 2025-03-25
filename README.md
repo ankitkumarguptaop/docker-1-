@@ -25,4 +25,6 @@ PS C:\Users\info> docker exec  -it <container_name> <container_insider_command>
 
 in docker 
 docker pull rabbitmq:management (image)
+
+
 docker run -it --name rabbitmq -p 5672:5672 -p 15672:15672 sha256:31e292362ff145b383b308fe904778bf6cd9c7475813b5ed76ade67314a69885
